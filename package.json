@@ -22,13 +22,3 @@
     "path": "^0.12.7"
   }
 }
-
-
-
-
-/*"scripts": {
-  
-"start": "node ./app.js",
-"postinstall": "grunt default" 
-}
-*/
