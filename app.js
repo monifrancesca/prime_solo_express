@@ -13,7 +13,7 @@ app.get('/', function(req,res,next){
 app.use('/static', express.static('/static'));
 
 app.get('/balance', function(req, res, next) {
-  response.send(showAccountBalance());
+  res.send(showAccountBalance());
 });
 
 

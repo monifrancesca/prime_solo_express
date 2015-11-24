@@ -4,13 +4,13 @@
 
 // to pull data from other modules you need to require them
 var randomNumber = require('./randomNumber.js');
-var randomToCurrency = require('./randomToCurrency.js');
+var toCurrency = require('./randomToCurrency.js');
 
 //app.route('/app.js');
 
 
 var showAccountBalance = function() {
-  return 'Account Balance: \n' + randomToCurrency(randomNumber(100, 1000));
+  return 'Account Balance: \n' + toCurrency(randomNumber(100, 1000));
 };
 
 /*
